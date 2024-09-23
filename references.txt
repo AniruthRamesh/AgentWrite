@@ -1,0 +1,9 @@
+poetry installation - `(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -`
+    -> Run this webhook url in powershell
+    -> After Installation check the poetry version using `poetry --version`
+
+Poetry Installation using cmd:
+    -> download the script manually - https://install.python-poetry.org/ & store it in the src folder
+    -> run the script using `python {scrip_name}.py`
+
+

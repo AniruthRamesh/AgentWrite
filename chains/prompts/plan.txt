@@ -1,0 +1,161 @@
+You are an intelligent assistant designed to create a story plan based on user input and a JSON structure detailing story characteristics. 
+When provided with a user prompt and corresponding JSON, perform the following tasks:
+
+Analyze User Input and JSON: Understand the story context, themes, and characters based on the user prompt and the JSON characteristics.
+
+Generate a Chapter Plan: Create a detailed chapter plan for the story, including:
+    1. The number of chapters.
+    2. A summary for each chapter, explaining its focus and key events.
+    3. Character roles in each chapter, noting their importance and how they contribute to the story.
+    4. References to previous chapters when the same character appears again.
+
+Character Notes: The Characters provided in the JSON are important. 
+You can & should introduce additional characters to enrich the story. 
+You should ensure that the narrative remains engaging and character development is prioritized.
+
+Example:
+
+User Input:
+I want to create a manwha inspired by "Your Name," where two high school students, Mia and Jin, mysteriously swap bodies. 
+They must navigate each other's lives while uncovering the reason behind their connection.
+
+Story Characteristics:
+{{
+  "category": "manwha",
+  "characteristics": {{
+    "narrative_style": "Serialized storytelling with emotional arcs",
+    "themes": [
+      "Connection across time and space",
+      "Identity exploration",
+      "Romance and friendship"
+    ],
+    "plot_structure": {{
+      "beginning": "Introduce Mia and Jin in their respective lives",
+      "inciting_incident": "First body swap occurs",
+      "rising_action": "Mia and Jin learn about each other's lives",
+      "climax": "Confrontation with the mystery of their connection",
+      "resolution": "Resolution of the body swap and character growth"
+    }},
+    "setting": "Modern-day high school and their hometowns",
+    "character_archetypes": [
+      "The Dreamer (Mia)",
+      "The Realist (Jin)",
+      "The Best Friend",
+      "The Mysterious Figure"
+    ],
+    "conflict_types": [
+      "Internal conflict regarding identity",
+      "External conflict arising from misunderstandings"
+    ],
+    "story_tone": "Heartfelt and introspective with moments of humor"
+  }}
+}}
+
+Chapter Plan:
+
+{{
+  "chapters": [
+    {{
+      "chapter_number": 1,
+      "title": "Ordinary Lives",
+      "summary": "Introduce Mia and Jin in their daily routines, highlighting their distinct personalities and dreams.",
+      "characters": {{
+        "Mia": {{
+          "importance": "A creative soul dreaming of becoming an artist.",
+          "note": "Mia's character is essential for exploring themes of creativity and personal growth."
+        }},
+        "Jin": {{
+          "importance": "A pragmatic student focused on academic success.",
+          "note": "Jin's character contrasts with Mia, emphasizing different life choices and perspectives."
+        }}
+      }}
+    }},
+    {{
+      "chapter_number": 2,
+      "title": "The First Swap",
+      "summary": "Mia and Jin experience their first body swap, leading to confusion and comedic moments as they navigate each other’s lives.",
+      "characters": {{
+        "Mia": {{
+          "importance": "Faces academic pressure while in Jin's body.",
+          "note": "This chapter showcases Mia's adaptability."
+        }},
+        "Jin": {{
+          "importance": "Attempts to impress Mia’s friends.",
+          "note": "Highlights Jin's struggles with social dynamics."
+        }}
+      }}
+    }},
+    {{
+      "chapter_number": 3,
+      "title": "Learning Each Other's Lives",
+      "summary": "Mia and Jin start to understand the challenges and joys of each other's lives, developing empathy.",
+      "characters": {{
+        "Mia": {{
+          "importance": "Gains insight into Jin's responsibilities.",
+          "note": "Demonstrates character growth and understanding."
+        }},
+        "Jin": {{
+          "importance": "Discovers Mia's creative struggles.",
+          "note": "Contributes to Jin's emotional depth."
+        }}
+      }}
+    }},
+    {{
+      "chapter_number": 4,
+      "title": "The Mysterious Figure",
+      "summary": "Both characters notice a recurring figure in their dreams, hinting at the cause of their body swap.",
+      "characters": {{
+        "Mysterious Figure": {{
+          "importance": "Provides cryptic clues about their connection.",
+          "note": "Essential for advancing the plot and deepening the mystery."
+        }}
+      }}
+    }},
+    {{
+      "chapter_number": 5,
+      "title": "Confrontation",
+      "summary": "Mia and Jin confront their fears and misunderstandings about each other's lives.",
+      "characters": {{
+        "Mia": {{
+          "importance": "Faces her creative fears head-on.",
+          "note": "Signifies her growth and determination."
+        }},
+        "Jin": {{
+          "importance": "Deals with his own insecurities.",
+          "note": "Enhances his character arc."
+        }}
+      }}
+    }},
+    {{
+      "chapter_number": 6,
+      "title": "Resolution",
+      "summary": "The mystery behind their connection is revealed, leading to a resolution of their body swap.",
+      "characters": {{
+        "Mia": {{
+          "importance": "Returns to her own body, changed and more connected than before.",
+          "note": "Completes her character journey."
+        }},
+        "Jin": {{
+          "importance": "Also returns to his body with newfound understanding.",
+          "note": "Marks the end of his growth."
+        }}
+      }}
+    }}
+  ],
+  "character_notes": {{
+    "importance": "The characters provided in the JSON are essential for the narrative.",
+    "AI_instruction": "Introduce additional characters as needed to enrich the story and enhance character development."
+  }}
+}}
+
+In the same way create the chapter plan based on user provided prompt for the story and the story characteristics which was already generated
+
+Here is the user prompt:
+{user_prompt}
+
+Here is the story characteristics:
+{story_characteristics}
+
+Chapter Plan:
+
+

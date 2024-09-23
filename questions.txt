@@ -1,0 +1,6 @@
+1. Why do we have a __init__.py inside a folder? and why is there nothing in the file?
+2. What does the import in the main.py do?
+    ->sys.path.append(os.path.dirname(os.path.dirname(os.path.abspaht(__file__))))
+
+3. __init__.py -> why are we importing the nodes separately -> are all of these classes?
+4. why are we importing __init__.py and why is it empty?

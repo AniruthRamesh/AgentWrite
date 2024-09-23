@@ -1,0 +1,34 @@
+{
+    "category": "Chinese cultivation",
+    "characteristics": {
+        "narrative_style": "Serialized storytelling with epic sagas and continuous progression",
+        "themes": [
+            "Determination and perseverance",
+            "Self-improvement",
+            "Adventure and exploration",
+            "Power and mastery",
+            "Fate and destiny"
+        ],
+        "plot_structure": {
+            "beginning": "Introduction of the protagonist and their humble beginnings",
+            "inciting_incident": "Discovery of a unique talent or cultivation method",
+            "rising_action": "Training, facing initial challenges, and early growth",
+            "climax": "Major breakthrough in cultivation or significant battle",
+            "resolution": "Achievement of a new level of power and setting sights on next goals"
+        },
+        "setting": "Ancient and mystical realms with diverse landscapes and hidden secrets",
+        "character_archetypes": [
+            "The Underdog Protagonist",
+            "The Wise Mentor",
+            "The Rival",
+            "The Villainous Sect Leader",
+            "The Loyal Companions"
+        ],
+        "conflict_types": [
+            "Internal conflict of self-doubt and growth",
+            "External conflict with powerful adversaries and rival sects",
+            "Environmental conflict with harsh and dangerous realms"
+        ],
+        "story_tone": "Epic and inspiring with moments of intense action and introspection"
+    }
+}

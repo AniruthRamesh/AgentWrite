@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "storywriter"
+version = "0.1.0"
+description = "StoryWriter is an agent designed to take in a prompt from the user - (Intelligent enough to identify if prompt is related to story writing or not) - categorizes the story type needed and generates a plan to write a story, and Finally ACTUALLY WRITES LONG STORIES!!"
+authors = ["aniruth-devs <aniruth@alphagroup.ai>"]
+license = "free bro"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+langgraph = "^0.2.23"
+python-dotenv = "^1.0.1"
+langchain = "^0.3.0"
+langchain-openai = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
